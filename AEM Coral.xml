@@ -1,0 +1,133 @@
+<templateSet group="AEM Coral">
+  <template name="aem-d-gra" value="&lt;granite:data jcr:primaryType=&quot;nt:unstructured&quot;/&gt;" description="Add Granite Data tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-render" value="&lt;granite:rendercondition jcr:primaryType=&quot;nt:unstructured&quot; &#10;                         sling:resourceType=&quot;&quot;/&gt;" description="Add Render Condition" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-dialog" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;jcr:root xmlns:sling=&quot;http://sling.apache.org/jcr/sling/1.0&quot; xmlns:granite=&quot;http://www.adobe.com/jcr/granite/1.0&quot; xmlns:cq=&quot;http://www.day.com/jcr/cq/1.0&quot; xmlns:jcr=&quot;http://www.jcp.org/jcr/1.0&quot; xmlns:nt=&quot;http://www.jcp.org/jcr/nt/1.0&quot;&#10;    jcr:primaryType=&quot;nt:unstructured&quot;&#10;    jcr:title=&quot;&quot;&#10;    sling:resourceType=&quot;cq/gui/components/authoring/dialog&quot;&#10;    extraClientlibs=&quot;[]&quot;&#10;    helpPath=&quot;&quot;&gt;&#10;    &lt;content&#10;        jcr:primaryType=&quot;nt:unstructured&quot;&#10;        margin=&quot;{Boolean}true&quot;&#10;        sling:resourceType=&quot;granite/ui/components/coral/foundation/container&quot;&gt;&#10;        &lt;items jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;        &lt;/items&gt;&#10;    &lt;/content&gt;&#10;&lt;/jcr:root&gt;       " description="CQ Dialog" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-container" value="&lt;content&#10;        jcr:primaryType=&quot;nt:unstructured&quot;&#10;        margin=&quot;{Boolean}true&quot;&#10;        sling:resourceType=&quot;granite/ui/components/coral/foundation/container&quot;&gt;&#10;        &lt;items jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;        &lt;/items&gt;&#10;&lt;/content        " description="Coral Container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-tabs" value="&lt;tabs jcr:primaryType=&quot;nt:unstructured&quot;&#10;      sling:resourceType=&quot;granite/ui/components/coral/foundation/tabs&quot;&#10;      margin=&quot;{Boolean}true&quot;&#10;      maximized=&quot;{Boolean}true&quot;&gt;&#10;      &lt;items jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;      &lt;/items&gt;&#10;&lt;/tabs&gt;      " description="Coral Tabs" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-columns" value="&lt;columns jcr:primaryType=&quot;nt:unstructured&quot;&#10;         sling:resourceType=&quot;granite/ui/components/coral/foundation/fixedcolumns&quot;&#10;         margin=&quot;{Boolean}true&quot;&gt;&#10;         &lt;items jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;         &lt;/items&gt;&#10;&lt;/columns&gt;         " description="Coral FixedColumns" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-fileupload" value="&lt;file jcr:primaryType=&quot;nt:unstructured&quot;&#10;      sling:resourceType=&quot;cq/gui/components/authoring/dialog/fileupload&quot;&#10;      allowUpload=&quot;{Boolean}false&quot;&#10;      autoStart=&quot;{Boolean}false&quot;&#10;      class=&quot;cq-droptarget&quot;&#10;      fieldLabel=&quot;Image Asset&quot;&#10;      fileNameParameter=&quot;./fileName&quot;&#10;      fileReferenceParameter=&quot;./fileReference&quot;&#10;      mimeTypes=&quot;[image/gif,image/jpeg,image/png,image/webp,image/tiff]&quot;&#10;      multiple=&quot;{Boolean}false&quot;&#10;      name=&quot;./file&quot;&#10;      title=&quot;Upload Image Asset&quot;&#10;      uploadUrl=&quot;${suffix.path}&quot;&#10;      useHTML5=&quot;{Boolean}true&quot;/&gt;" description="File/Image Upload" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-well" value="&lt;well jcr:primaryType=&quot;nt:unstructured&quot;&#10;      sling:resourceType=&quot;granite/ui/components/coral/foundation/well&quot;&gt;&#10;      &lt;items jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;      &lt;/items&gt;&#10;&lt;/well&gt;      " description="Coral Well" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-textfield" value="&lt;title jcr:primaryType=&quot;nt:unstructured&quot;&#10;       sling:resourceType=&quot;granite/ui/components/coral/foundation/form/textfield&quot;&#10;       fieldDescription=&quot;&quot;&#10;       fieldLabel=&quot;&quot;&#10;       name=&quot;./title&quot;&#10;       value=&quot;&quot;/&gt;" description="Coral Text Field" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-checbox" value="&lt;checkbox jcr:primaryType=&quot;nt:unstructured&quot;&#10;          sling:resourceType=&quot;granite/ui/components/coral/foundation/form/checkbox&quot;&#10;          checked=&quot;{Boolean}false&quot;&#10;          fieldDescription=&quot;&quot;&#10;          name=&quot;./checkbox&quot;&#10;          text=&quot;&quot;&#10;          uncheckedValue=&quot;{Boolean}false&quot;&#10;          value=&quot;{Boolean}true&quot;/&gt;" description="Coral Checkbox" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-rte" value="&lt;rte jcr:primaryType=&quot;nt:unstructured&quot; sling:resourceType=&quot;cq/gui/components/authoring/dialog/richtext&quot; fieldDescription=&quot;&quot; fieldLabel=&quot;&quot; name=&quot;./rte&quot; useFixedInlineToolbar=&quot;{Boolean}true&quot;&gt;&#10;    &lt;rtePlugins jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;        &lt;format jcr:primaryType=&quot;nt:unstructured&quot; features=&quot;bold,italic&quot;/&gt;&#10;        &lt;justify jcr:primaryType=&quot;nt:unstructured&quot; features=&quot;-&quot;/&gt;&#10;        &lt;links jcr:primaryType=&quot;nt:unstructured&quot; features=&quot;modifylink,unlink&quot;/&gt;&#10;        &lt;lists jcr:primaryType=&quot;nt:unstructured&quot; features=&quot;*&quot;/&gt;&#10;        &lt;misctools jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;            &lt;specialCharsConfig jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;                &lt;chars jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;                    &lt;default_copyright jcr:primaryType=&quot;nt:unstructured&quot; entity=&quot;&amp;amp;copy;&quot; name=&quot;copyright&quot;/&gt;&#10;                    &lt;default_euro jcr:primaryType=&quot;nt:unstructured&quot; entity=&quot;&amp;amp;euro;&quot; name=&quot;euro&quot;/&gt;&#10;                    &lt;default_registered jcr:primaryType=&quot;nt:unstructured&quot; entity=&quot;&amp;amp;reg;&quot; name=&quot;registered&quot;/&gt;&#10;                    &lt;default_trademark jcr:primaryType=&quot;nt:unstructured&quot; entity=&quot;&amp;amp;trade;&quot; name=&quot;trademark&quot;/&gt;&#10;                &lt;/chars&gt;&#10;            &lt;/specialCharsConfig&gt;&#10;        &lt;/misctools&gt;&#10;        &lt;paraformat jcr:primaryType=&quot;nt:unstructured&quot; features=&quot;*&quot;&gt;&#10;            &lt;formats jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;                &lt;default_p jcr:primaryType=&quot;nt:unstructured&quot; description=&quot;Paragraph&quot; tag=&quot;p&quot;/&gt;&#10;                &lt;default_h1 jcr:primaryType=&quot;nt:unstructured&quot; description=&quot;Heading 1&quot; tag=&quot;h1&quot;/&gt;&#10;                &lt;default_h2 jcr:primaryType=&quot;nt:unstructured&quot; description=&quot;Heading 2&quot; tag=&quot;h2&quot;/&gt;&#10;                &lt;default_h3 jcr:primaryType=&quot;nt:unstructured&quot; description=&quot;Heading 3&quot; tag=&quot;h3&quot;/&gt;&#10;                &lt;default_h4 jcr:primaryType=&quot;nt:unstructured&quot; description=&quot;Heading 4&quot; tag=&quot;h4&quot;/&gt;&#10;                &lt;default_h5 jcr:primaryType=&quot;nt:unstructured&quot; description=&quot;Heading 5&quot; tag=&quot;h5&quot;/&gt;&#10;                &lt;default_h6 jcr:primaryType=&quot;nt:unstructured&quot; description=&quot;Heading 6&quot; tag=&quot;h6&quot;/&gt;&#10;                &lt;default_blockquote jcr:primaryType=&quot;nt:unstructured&quot; description=&quot;Quote&quot; tag=&quot;blockquote&quot;/&gt;&#10;                &lt;default_pre jcr:primaryType=&quot;nt:unstructured&quot; description=&quot;Preformatted&quot; tag=&quot;pre&quot;/&gt;&#10;            &lt;/formats&gt;&#10;        &lt;/paraformat&gt;&#10;        &lt;table jcr:primaryType=&quot;nt:unstructured&quot; features=&quot;-&quot;&gt;&#10;            &lt;hiddenHeaderConfig jcr:primaryType=&quot;nt:unstructured&quot; hiddenHeaderClassName=&quot;cq-wcm-foundation-aria-visuallyhidden&quot; hiddenHeaderEditingCSS=&quot;cq-RichText-hiddenHeader--editing&quot;/&gt;&#10;        &lt;/table&gt;&#10;        &lt;tracklinks jcr:primaryType=&quot;nt:unstructured&quot; features=&quot;*&quot;/&gt;&#10;    &lt;/rtePlugins&gt;&#10;    &lt;uiSettings jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;        &lt;cui jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;            &lt;inline jcr:primaryType=&quot;nt:unstructured&quot; toolbar=&quot;[format#bold,format#italic,format#underline,#justify,#lists,links#modifylink,links#unlink,#paraformat]&quot;&gt;&#10;                &lt;popovers jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;                    &lt;justify jcr:primaryType=&quot;nt:unstructured&quot; items=&quot;[justify#justifyleft,justify#justifycenter,justify#justifyright]&quot; ref=&quot;justify&quot;/&gt;&#10;                    &lt;lists jcr:primaryType=&quot;nt:unstructured&quot; items=&quot;[lists#unordered,lists#ordered,lists#outdent,lists#indent]&quot; ref=&quot;lists&quot;/&gt;&#10;                    &lt;paraformat jcr:primaryType=&quot;nt:unstructured&quot; items=&quot;paraformat:getFormats:paraformat-pulldown&quot; ref=&quot;paraformat&quot;/&gt;&#10;                &lt;/popovers&gt;&#10;            &lt;/inline&gt;&#10;            &lt;dialogFullScreen jcr:primaryType=&quot;nt:unstructured&quot; toolbar=&quot;[format#bold,format#italic,format#underline,justify#justifyleft,justify#justifycenter,justify#justifyright,lists#unordered,lists#ordered,lists#outdent,lists#indent,links#modifylink,links#unlink,table#createoredit,#paraformat,image#imageProps]&quot;&gt;&#10;                &lt;popovers jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;                    &lt;paraformat jcr:primaryType=&quot;nt:unstructured&quot; items=&quot;paraformat:getFormats:paraformat-pulldown&quot; ref=&quot;paraformat&quot;/&gt;&#10;                &lt;/popovers&gt;&#10;            &lt;/dialogFullScreen&gt;&#10;            &lt;tableEditOptions jcr:primaryType=&quot;nt:unstructured&quot; toolbar=&quot;[table#insertcolumn-before,table#insertcolumn-after,table#removecolumn,-,table#insertrow-before,table#insertrow-after,table#removerow,-,table#mergecells-right,table#mergecells-down,table#mergecells,table#splitcell-horizontal,table#splitcell-vertical,-,table#selectrow,table#selectcolumn,-,table#ensureparagraph,-,table#modifytableandcell,table#removetable,-,undo#undo,undo#redo,-,table#exitTableEditing,-]&quot;/&gt;&#10;        &lt;/cui&gt;&#10;    &lt;/uiSettings&gt;&#10;&lt;/rte&gt;" description="Coral RTE" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-pagefield" value="&lt;linkURL jcr:primaryType=&quot;nt:unstructured&quot;&#10;         sling:resourceType=&quot;cq/gui/components/coral/common/form/pagefield&quot;&#10;         fieldDescription=&quot;&quot;&#10;         fieldLabel=&quot;Link&quot;&#10;         name=&quot;./linkURL&quot;&#10;         rootPath=&quot;/content&quot;&#10;         wrapperClass=&quot;&quot;/&gt;" description="Coral PageField" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-multi-m" value="&lt;actions granite:class=&quot;&quot; &#10;         jcr:primaryType=&quot;nt:unstructured&quot; &#10;         sling:resourceType=&quot;granite/ui/components/coral/foundation/form/multifield&quot; &#10;         composite=&quot;{Boolean}true&quot;&gt;&#10;    &lt;field granite:class=&quot;&quot; &#10;           jcr:primaryType=&quot;nt:unstructured&quot; &#10;           sling:resourceType=&quot;granite/ui/components/coral/foundation/container&quot; &#10;           name=&quot;./actions&quot;&gt;&#10;        &lt;items jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;            &lt;link granite:class=&quot;&quot; &#10;                  jcr:primaryType=&quot;nt:unstructured&quot; &#10;                  sling:resourceType=&quot;cq/gui/components/coral/common/form/pagefield&quot; &#10;                  emptyText=&quot;Link&quot; &#10;                  name=&quot;./link&quot; &#10;                  required=&quot;{Boolean}true&quot; &#10;                  rootPath=&quot;/content&quot;/&gt;&#10;            &lt;text granite:class=&quot;&quot; &#10;                  jcr:primaryType=&quot;nt:unstructured&quot; &#10;                  sling:resourceType=&quot;granite/ui/components/coral/foundation/form/textfield&quot; &#10;                  emptyText=&quot;Text&quot; &#10;                  name=&quot;./text&quot; &#10;                  required=&quot;{Boolean}true&quot;/&gt;&#10;        &lt;/items&gt;&#10;    &lt;/field&gt;&#10;&lt;/actions&gt;" description="Coral Composite Multifield" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-textarea" value="&lt;text jcr:primaryType=&quot;nt:unstructured&quot;&#10;      fieldLabel=&quot;Text&quot;&#10;      name=&quot;./text&quot;&#10;      maxLength=&quot;{Long}120&quot;&#10;      cols=&quot;{Integer}10&quot;&#10;      rows=&quot;{Integer}10&quot;&#10;      sling:resourceType=&quot;granite/ui/components/coral/foundation/form/textarea&quot;&gt;" description="Coral Text Area" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-action" value="&lt;wrapper jcr:primaryType=&quot;nt:unstructured&quot; &#10;         sling:resourceType=&quot;granite/ui/components/coral/foundation/form/actionfield&quot;&gt;&#10;         &lt;field jcr:primaryType=&quot;nt:unstructured&quot; &#10;                fieldLabel=&quot;&quot; name=&quot;./field&quot;&#10;                sling:resourceType=&quot;granite/ui/components/coral/foundation/textfield&quot;/&gt;&#10;         &lt;action jcr:primaryType=&quot;nt:unstructured&quot; &#10;                 granite:class=&quot;&quot; &#10;                 sling:resourceType=&quot;granite/ui/components/coral/foundation/button&quot; &#10;                 text=&quot;OK&quot; &#10;                 type=&quot;submit&quot;/&gt;&#10;&lt;/wrapper&gt;" description="Coral Action" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-accordion" value="&lt;accordion &#10;    cq:showOnCreate=&quot;{Boolean}false&quot; &#10;    jcr:primaryType=&quot;nt:unstructured&quot; &#10;    sling:resourceType=&quot;granite/ui/components/coral/foundation/accordion&quot;&gt;&#10;    &lt;items jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;        &lt;container jcr:primaryType=&quot;nt:unstructured&quot; &#10;                   jcr:title=&quot;This one will be used in accordion&quot; &#10;                   sling:resourceType=&quot;granite/ui/components/coral/foundation/container&quot;&gt;&#10;            &lt;parentConfig jcr:primaryType=&quot;nt:unstructured&quot; &#10;                          active=&quot;{Boolean}true&quot;/&gt;&#10;            &lt;items jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;            &lt;/items&gt;&#10;        &lt;/container&gt;&#10;    &lt;/items&gt;&#10;&lt;/accordion&gt;" description="Coral Accordion" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-button" value="&lt;button jcr:primaryType=&quot;nt:unstructured&quot;&#10;        disabled=&quot;{Boolean}true&quot;&#10;        text=&quot;Button&quot;&#10;        sling:resourceType=&quot;granite/ui/components/coral/foundation/button&quot;/&gt;" description="Coral Button" toReformat="false" toShortenFQNames="true" />
+  <template name="aem-d-colorfield" value="&lt;color jcr:primaryType=&quot;nt:unstructured&quot;&#10;        disabled=&quot;{Boolean}true&quot;&#10;        name=&quot;./color&quot;&#10;        showSwatches=&quot;{Boolean}true&quot;&#10;        showProperties=&quot;{Boolean}true&quot;&#10;        showDefaultColors=&quot;{Boolean}true&quot;&#10;        sling:resourceType=&quot;granite/ui/components/coral/foundation/form/colorfield&quot;/&gt;" description="Coral Colorfield" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-datetime" value="&lt;datetime jcr:primaryType=&quot;nt:unstructured&quot;&#10;        disabled=&quot;{Boolean}true&quot;&#10;        name=&quot;./datetime&quot;&#10;        type=&quot;&quot;&#10;        displayedFormat=&quot;'date' or 'datetime' or 'time'&quot;&#10;        maxDate=&quot;&quot;&#10;        minDate=&quot;&quot;&#10;        valueFormat=&quot;YYYY-MM-DD[T]HH:mm:ss.SSSZ&quot;&#10;        displayTimezoneMessage=&quot;{Boolean}true&quot;&#10;        sling:resourceType=&quot;granite/ui/components/coral/foundation/form/datepicker&quot;/&gt;" description="Coral DateTime picker" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-fieldset" value="&lt;fieldset jcr:primaryType=&quot;nt:unstructured&quot;&#10;          jcr:title=&quot;Fieldset&quot;&#10;          sling:resourceType=&quot;granite/ui/components/coral/foundation/form/fieldset&quot;&gt;&#10;          &lt;items jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;          &lt;/items&gt;&#10;&lt;/fieldset&gt;         " description="Coral Fieldset" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-hidden" value="&lt;hidden jcr:primaryType=&quot;nt:unstructured&quot;&#10;        name=&quot;./hidden@TypeHint&quot;&#10;        sling:resourceType=&quot;granite/ui/components/coral/foundation/form/hidden&quot;&#10;        value=&quot;Boolean&quot;/&gt;" description="Coral Hidden" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-numberfield" value="&lt;numberfield jcr:primaryType=&quot;nt:unstructured&quot;&#10;             sling:resourceType=&quot;granite/ui/components/coral/foundation/form/numberfield&quot;&#10;             defaultValue=&quot;{Long}1280&quot;&#10;             min=&quot;{Long}0&quot;&#10;             name=&quot;./numberfield&quot;&#10;             required=&quot;{Boolean}true&quot;/&gt;" description="Coral Number field" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-password" value="&lt;password jcr:primaryType=&quot;nt:unstructured&quot;&#10;          autocomplete=&quot;off&quot; &#10;          fieldLabel=&quot;Shared Secret&quot; &#10;          name=&quot;./password&quot; &#10;          sling:resourceType=&quot;granite/ui/components/coral/foundation/form/password&quot;/&gt;" description="Coral Accordion" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-pathbrowser" value="&lt;path jcr:primaryType=&quot;nt:unstructured&quot;&#10;      sling:resourceType=&quot;granite/ui/components/coral/foundation/form/pathbrowser&quot;&#10;      fieldDescription=&quot;Select Path&quot;&#10;      fieldLabel=&quot;Select Path&quot;&#10;      name=&quot;./path&quot;&#10;      rootPath=&quot;/content&quot;/&gt;" description="Coral PathBrowser" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-pathfield" value="&lt;pathfield jcr:primaryType=&quot;nt:unstructured&quot;&#10;       fieldDescription=&quot;Pathfield&quot;&#10;       fieldLabel=&quot;Pathfield&quot; &#10;       name=&quot;./pathfield&quot;&#10;       rootPath=&quot;/content&quot;&#10;       sling:resourceType=&quot;granite/ui/components/coral/foundation/form/pathfield&quot;&gt;" description="Coral Path field" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-select" value="&lt;select jcr:primaryType=&quot;nt:unstructured&quot;&#10;           fieldLabel=&quot;Select&quot;&#10;           name=&quot;./select&quot;&#10;           sling:resourceType=&quot;granite/ui/components/coral/foundation/form/select&quot;&gt;&#10;           &lt;items jcr:primaryType=&quot;nt:unstructured&quot;&gt;&#10;                  &lt;one jcr:primaryType=&quot;nt:unstructured&quot; text=&quot;onw&quot; value=&quot;onw&quot;/&gt;&#10;                  &lt;two jcr:primaryType=&quot;nt:unstructured&quot; text=&quot;two&quot; value=&quot;two&quot;/&gt;&#10;           &lt;/items&gt;&#10;&lt;/select&gt;" description="Coral Select" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="aem-d-select-ds" value="&lt;select jcr:primaryType=&quot;nt:unstructured&quot;&#10;           fieldLabel=&quot;Select&quot;&#10;           name=&quot;./select&quot;&#10;           sling:resourceType=&quot;granite/ui/components/coral/foundation/form/select&quot;&gt;&#10;           &lt;datasource jcr:primaryType=&quot;nt:unstructured&quot;&#10;                       sling:resourceType=&quot;&quot;/&gt;&#10;&lt;/select&gt;" description="Coral Select with datasource" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>
